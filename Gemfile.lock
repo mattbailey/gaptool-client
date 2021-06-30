@@ -1,25 +1,31 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    activesupport (3.2.13)
-      i18n (= 0.6.1)
-      multi_json (~> 1.0)
+    activesupport (6.1.4)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+      zeitwerk (~> 2.3)
     builder (3.2.0)
     clamp (0.6.1)
+    concurrent-ruby (1.1.9)
     gaptool-api (0.3.5)
       httparty
     git (1.2.5)
     httparty (0.11.0)
       multi_json (~> 1.0)
       multi_xml (>= 0.5.2)
-    i18n (0.6.1)
+    i18n (1.8.10)
+      concurrent-ruby (~> 1.0)
     jeweler (1.8.4)
       bundler (~> 1.0)
       git (>= 1.2.5)
       rake
       rdoc
     json (1.8.0)
-    multi_json (1.7.3)
+    minitest (5.14.4)
+    multi_json (1.15.0)
     multi_xml (0.5.3)
     net-scp (1.1.1)
       net-ssh (>= 2.6.5)
@@ -39,6 +45,9 @@ GEM
       multi_json (~> 1.0)
       simplecov-html (~> 0.7.1)
     simplecov-html (0.7.1)
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
+    zeitwerk (2.4.2)
 
 PLATFORMS
   ruby
